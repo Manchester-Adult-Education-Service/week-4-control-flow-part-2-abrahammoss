@@ -59,6 +59,11 @@ else:
 # Task 1:
 # - Add an else block to the "greater than 0" check.
 #   If false, print: "The number is zero or negative."
+num1 = 11
+if (num1 % 2) == 0:
+    print("the number is even")
+else:
+    print("number is odd")    
 
 # Task 2:
 # - Add an else to the even/odd check.
