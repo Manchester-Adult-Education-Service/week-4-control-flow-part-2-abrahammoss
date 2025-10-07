@@ -59,21 +59,24 @@ else:
 # Task 1:
 # - Add an else block to the "greater than 0" check.
 #   If false, print: "The number is zero or negative."
-num1 = 11
-if (num1 % 2) == 0:
-    print("the number is even")
-else:
-    print("number is odd")    
+    
 
 # Task 2:
 # - Add an else to the even/odd check.
 #   If it's not even, print: "The number is odd."
-
+num1 = 300
+if (num1 % 2) == 0:
+    print("the number is even")
+else:
+    print("number is odd")
 # Task 3:
 # - Add a new condition using `and`:
 #     - If the number is divisible by both 2 and 3, print: "Divisible by 2 and 3."
 #     - Otherwise, print: "Not divisible by both."
-
+if (num1 % 3) == 0 and (num1 % 2) == 0:
+    print("Divisible by 2 and 3.")
+else:
+     print("Not divisible by both.")   
 # Task 4:
 # - Try using the `or` operator to check if divisible by either 2 or 3.
 
