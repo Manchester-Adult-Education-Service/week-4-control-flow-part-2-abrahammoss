@@ -35,7 +35,13 @@
 # - Test with different values. What messages appear for each?
 
 # Write your Step 1 code below:
-
+number = 0
+if number > 0 :
+    print("The number is positive")
+elif number < 0 :
+    print("The number is negative")
+else: 
+    print("The number is zero")
 
 # ---- GIT STEP ----
 # 1. Save your work.
